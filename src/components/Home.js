@@ -1,6 +1,10 @@
 import React from 'react'
 import ImageSlider from './ImageSlider'
 import Product from './Product'
+import Burn from '../assets/Burn.png'
+import Eaa from '../assets/eaa.png'
+import Pump from '../assets/pump.png'
+import Sleep from '../assets/sleep.png'
 
 function Home() {
     return (
@@ -16,7 +20,7 @@ function Home() {
                         title="The Lean Startup: How Constant Innovation Creates Radically Successful Businesses Paperback"
                         price={11.96}
                         rating={5}
-                        image="https://images-na.ssl-images-amazon.com/images/I/51Zymoq7UnL._SX325_BO1,204,203,200_.jpg"
+                        image={Burn}
                     />
 
                     <Product
@@ -24,7 +28,7 @@ function Home() {
                         title="The Lean Startup: How Constant Innovation Creates Radically Successful Businesses Paperback"
                         price={11.96}
                         rating={5}
-                        image="https://images-na.ssl-images-amazon.com/images/I/51Zymoq7UnL._SX325_BO1,204,203,200_.jpg"
+                        image={Eaa}
                     />
 
                     <Product
@@ -32,7 +36,7 @@ function Home() {
                         title="The Lean Startup: How Constant Innovation Creates Radically Successful Businesses Paperback"
                         price={11.96}
                         rating={5}
-                        image="https://images-na.ssl-images-amazon.com/images/I/51Zymoq7UnL._SX325_BO1,204,203,200_.jpg"
+                        image={Pump}
                     />
 
                     <Product
@@ -40,7 +44,7 @@ function Home() {
                         title="The Lean Startup: How Constant Innovation Creates Radically Successful Businesses Paperback"
                         price={11.96}
                         rating={5}
-                        image="https://images-na.ssl-images-amazon.com/images/I/51Zymoq7UnL._SX325_BO1,204,203,200_.jpg"
+                        image={Sleep}
                     />
 
                 </div>
