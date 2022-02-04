@@ -1,18 +1,15 @@
 import React, { useState } from 'react'
-import { getAuth, createUserWithEmailAndPassword } from "firebase/auth";
+import { createUserWithEmailAndPassword } from "firebase/auth";
+import { auth } from '../firebase'
 
 function Register() {
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('')
-    const auth = getAuth
 
     const register = e => {
-        e.preventDefault()
-
-        
         createUserWithEmailAndPassword(auth, email, password)
             .then((userCredential) =>{
-                console.log(userCredential)
+                console.log(userCredential.providerId)
             })
             .catch((error) => {
                 //const errorCode = error.code;
